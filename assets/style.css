@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Sourcer Sans Pro', sans-serif;
+  }
+
+  .caixa-validador{
+    max-width: 1024px;
+    margin:0 auto ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .caixa-dados{
+    display: flex;
+    justify-content: space-around;
+  }

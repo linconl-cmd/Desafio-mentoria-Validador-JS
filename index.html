@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Desafio Mentoria</title>
+</head>
+
+<body>
+    <div id="" class="caixa-validador">
+        <h1 class="title-validador">Validador de JS</h1>
+        <textarea id="my-textarea" oninput="contador()" cols="40" rows="20" placeholder="Digite aqui"></textarea>
+        <button class="botao-validador" id="botao-validar" onclick="validar()">Validar</button>
+        <p class="dados-resultado" id="resultado"></p>
+        <div class="caixa-dados">
+            <h3 class="dados">Caracteres:</h3>
+            <p class="dados" id="caracter"></p>
+            <h3 class="dados">Linhas:</h3>
+            <p class="dados" id="line"></p>
+            <h3 class="dados">tamanho</h3>
+            <p class="dados" id="bytes"></p>
+            <h3 class="dados">Tempo:</h3>
+            <p class="dados" id="time"></p>
+        </div>
+
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
